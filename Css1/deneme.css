@@ -1,0 +1,67 @@
+h1 {
+    margin-right: 0; /* Son menü öğesinin sağ tarafındaki boşluğu kaldırır.Yoksa adam akıllı öğeler ortalanmıyor*/ 
+}
+
+.horizontal-menu {
+    list-style: none; /*Liste noktalarını siler*/
+    padding: 0; /*dış dolgu alanını sıfırlar*/
+    margin: 0; /*iç dolgu alanını sıfırlar*/
+    display: flex; /* liste öğelerini yatay sıralar*/
+    justify-content: center; /* Menüyü yatayda ortala*/
+  }
+  
+  .horizontal-menu li {
+    margin-right: 100px; /* Menü öğeleri arasındaki boşluğu ayarlayabilirsiniz */
+  }
+  
+  .horizontal-menu li:last-child {
+    margin-right: 0; /* Son menü öğesinin sağ tarafındaki boşluğu kaldırır.Yoksa adam akıllı öğeler ortalanmıyor*/ 
+  }
+  
+  .horizontal-menu li a:hover { /*a etiketi üzerine gelince arkaplan rengi değişiyor*/
+    background-color: #f3f0f5ea; /* Fare üzerine gelindiğinde arka plan rengini değiştirir */
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .footer-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
