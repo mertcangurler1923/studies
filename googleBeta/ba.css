@@ -1,0 +1,77 @@
+body {
+    display: flexbox;
+    align-items: center;
+}
+
+/************************ KUTU ÖZELLİKLERİ *************************/
+
+.box {
+    margin-top: 250px;
+    text-align: center;
+    
+    }
+
+.box1 {
+    text-align: center;
+    width: 36%;
+    height: 115px;
+    background-color: aqua;
+    float: left;
+    margin-top: 7px;
+    
+}
+
+.box2 {
+    text-align: center;
+    width: 18%;
+    height: 115px;
+    background-color: aquamarine;
+    font-size: small;
+    float: left;
+    margin-top: 7px;
+    
+    
+}
+
+.box3 {
+    text-align: center;
+    width: 45%;
+    height: 115px;
+    background-color: rgb(26, 137, 100);
+    font-size: small;
+    float: left;
+    margin-top: 7px;
+}
+
+/************************ ARAMA KUTUSU VE BUTON ÖZELLİKLERİ *************************/
+
+.search-main {
+    background-color:#fff;
+    height: 25px;
+    width: 350px;
+    margin: auto;
+    border-style: groove;
+    
+
+}
+
+.search{
+    background: none;
+    border: none;
+    align-items:center ;
+    margin: auto;
+    
+}
+
+.button {
+    text-align: center;
+
+}
+
+.footer {
+    text-align: center;
+    clear: both;
+    height: auto;
+    width: auto;
+    margin-bottom: 100px;
+}

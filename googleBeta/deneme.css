@@ -1,0 +1,61 @@
+body {
+    display: flexbox;
+    align-items: center;
+}
+
+.header {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.section {
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    width: 99%;
+}
+
+.div {
+    display: inline-flex;
+    background-color: darkturquoise;
+    width: 32%;
+    height: 115px;
+    margin: 1px;
+    padding: 10px;
+    flex-direction: column; /* Öğeleri dikey olarak sıralar */
+    align-items: center;  /*Yatayda merkezler 
+    justify-content: center;
+    float: left;*/
+
+
+}
+#textbox1 {
+    width: 600px;
+    height: 15px;
+    flex: 1;
+}
+
+#textbox2 {
+    width: 30px;
+    height: 15px;
+    flex: 1;
+}
+.button {
+    align-items: center; /* Yatayda merkezler */
+    text-align: center;
+}
+.ul {
+    list-style: none;
+    display: center;
+    flex-direction: column; /* Öğeleri dikey olarak sıralar */
+    align-items: center; /* Yatayda merkezler */
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    clear: both;
+    height: auto;
+    width: auto;
+    margin-bottom: 100px;
+}
+    
