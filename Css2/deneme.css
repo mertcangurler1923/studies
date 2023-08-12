@@ -1,0 +1,9 @@
+.body {
+    background-color: gray;
+}
+
+.text {
+    text-align: center;
+    text-align:unset;
+    color: darkorange;
+}
