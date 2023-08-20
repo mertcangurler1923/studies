@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #textbox {
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #liste {
+    list-style: none;
+    padding: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #ulItem {
+    display: table-column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+  }
+  #xListButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+  }
